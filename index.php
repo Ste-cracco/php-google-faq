@@ -15,7 +15,7 @@
                 <h1>Privacy & Termini</h1>
             </div>
             <div class="container_menu">
-                <ul class="menu flex">
+                <ul class="menu flex pippo">
                     <li>
                         <a href="#"> Introduzione </a>
                     </li>
@@ -28,8 +28,8 @@
                     <li>
                         <a href="#"> Tecnologie </a>
                     </li>
-                    <li>
-                        <a href="#"> Domande Frequenti</a>
+                    <li class="active_li">
+                        <a class="active" href="#"> Domande Frequenti</a>
                     </li>
                 </ul>
             </div>
@@ -55,13 +55,27 @@ $faqs = [
                            <p> Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione. </p>' 
         ],
         [
-            'titolo' => ' <h2 class="titolo_faq"> Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro? </h2>',
+            'titolo' => '<h2 class="titolo_faq"> Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro? </h2>',
             'risposta' => '<p> Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un\'elevata sicurezza e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno. </p>
                            <p> Siamo costantemente al lavoro per garantire un\'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come 
                            Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo. </p>
                            <p> Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel Centro Google per la sicurezza online. </p>
                            <p> Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo. </p>' 
-        ]
+        ],
+        [
+            'titolo' => '<h2 class="titolo_faq"> Perché il mio account è associato a un paese? </h2>',
+            'risposta' => '<p> Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose: </p>
+                           <ol> 
+                                <li> La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti: </li>
+                                <ul>
+                                    <li> Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera. </li>
+                                    <li> Google LLC, con sede negli Stati Uniti, per il resto del mondo. </li> 
+                                </ul>
+                                <li> La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali. </li>
+                            </ol>
+                            <p> Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account. </p>' 
+                            
+        ],
     ]    
 ];
 

@@ -10,10 +10,6 @@ img {
     max-width: 100%;
 }
 
-ul, li, menu {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -48,11 +44,19 @@ a {
 .menu {
     gap: 40px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    list-style: none;
 }
 
-.menu a {
-    color: #5f6368;
+.menu ul,li {
+    padding: 10px 0;
+}
+
+.active_li {
+    border-bottom: 3px solid #3367D6;
+}
+
+.active {
+    color: #3367D6;
 }
 
 .container {
@@ -72,3 +76,15 @@ p {
     line-height: 30px;
     font-size: 15px;
 }
+
+.container ol {
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.container ul {
+    list-style-type: lower-latin;
+    margin-left: 25px;
+    padding: 10px 0;
+}
+
