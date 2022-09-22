@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Product Sans",Arial,sans-serif;
+    color: #3c4043;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul, li, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/* FINE REGOLE RESET  */
+
+.container_header {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.container_logo {
+    align-items: center;
+    gap: 4px;
+}
+
+.container_logo img {
+    width: 76px;
+    height: 25px;
+}
+
+.container_logo h1 {
+    color: #5f6368;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.menu {
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    color: #5f6368;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 25px 0;
+}
+
+.titolo_faq {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+p {
+    font-size: 1em;
+    padding: 15px 0;
+    line-height: 30px;
+    font-size: 15px;
+}
